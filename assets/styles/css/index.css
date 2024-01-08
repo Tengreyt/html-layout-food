@@ -1,0 +1,16 @@
+@import 'https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap';
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+body {
+  background: red;
+}
+
+/*# sourceMappingURL=index.css.map */
