@@ -1,3 +1,64 @@
-body {
-    background: red;
+@import '../variables.scss';
+header{
+    background:#173334;
+    .header-row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-nav{
+        display: flex;
+        align-items: center;
+        padding: 51px 0;
+    }
+    .nav-title{
+        color: $light;
+        font-family: 'Kadwa', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        margin-right: 102px;
+    }
+    .header-nav-text{
+        display: flex;
+        gap: 61px;
+    }
+    .header-nav-subtext{
+        color: $light;
+        font-family: 'Kadwa',sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .icon-header{
+        display: flex;
+        gap: 35px;
+    }
+    .icon-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .icon-header-img{
+        width: 32px;
+        height: 32px;
+    }
+    .header-bottom-text{
+        padding-top: 7px;
+        color: $light;
+        font-family: 'Kadwa',sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .basket{
+        position: relative;
+    }
+    .rectangle-three{
+        position: absolute;
+        background: $primary;
+        padding: 0 5px;
+        border-radius: 3px;
+        top: -5px;
+        left: 20px;
+    }
+
 }
