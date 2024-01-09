@@ -1,0 +1,91 @@
+@import '../variables.scss';
+
+.intro{
+    // height: 915px;
+    padding-bottom: 37px;
+    background: $primary;
+    font-family: 'Kadwa', sans-serif;
+    .intro-row{
+        padding-top: 118px;
+    }
+    // btn top
+    .intro-btn-top{
+        display: flex;
+        flex-direction: row;
+        .intro-btn-top-text{
+            border-radius: 9px;
+            background: $light-text;
+            padding: 8px 70px;
+            color: $secondary-text;
+            font-size: 20px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+    }
+    // главный текст
+    .intro-title{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 530px;
+        padding-top: 42px;
+        .intro-title-text{
+            color: $secondary-text;
+            font-size: 96px;
+            font-weight: 700;
+            line-height: 112.11px; 
+        }
+    }
+    // второй текст
+    .sub-title{
+        width:1024px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 25px;
+        .sub-title-text{
+            color: $dark-text;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 42.81px; 
+            letter-spacing: -0.16px;
+        }
+    }
+    // btn bottom
+    .intro-btn-bottom{
+        display: flex;
+        flex-direction: row;
+        padding-top: 59px;
+        .btn-bottom{
+            padding: 25px 60px 20px 99px;
+            border-radius: 9px;
+            background: $light;
+            cursor: pointer;
+        }
+        .btn-bottom-text{
+            color: $secondary-text;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 133.781%; 
+            letter-spacing: 3.96px;
+            padding-right: 53.45px;
+        }
+    }
+}
+.img-bg{
+    position: relative;
+    .image-foode-bg{
+        position: absolute;
+        top: 274px ;
+        right: 0;
+       
+    }
+}
+.discount-dg{
+    position: relative;
+    .discount{
+        position: absolute;
+        top: 82px;
+        left: 829px;
+    }
+}

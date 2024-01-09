@@ -13,7 +13,7 @@ header .header-nav {
   padding: 51px 0;
 }
 header .nav-title {
-  color: #fff;
+  color: #ffffff;
   font-family: "Kadwa", sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -24,7 +24,7 @@ header .header-nav-text {
   gap: 61px;
 }
 header .header-nav-subtext {
-  color: #fff;
+  color: #ffffff;
   font-family: "Kadwa", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -37,14 +37,17 @@ header .icon-header {
 header .icon-item {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 header .icon-header-img {
   width: 32px;
   height: 32px;
+  cursor: pointer;
 }
 header .header-bottom-text {
   padding-top: 7px;
-  color: #fff;
+  color: #ffffff;
   font-family: "Kadwa", sans-serif;
   font-size: 10px;
   font-weight: 700;
@@ -59,6 +62,7 @@ header .rectangle-three {
   border-radius: 3px;
   top: -5px;
   left: 20px;
+  color: #fff;
 }
 
 /*# sourceMappingURL=header.css.map */
