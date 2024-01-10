@@ -5,8 +5,7 @@
     background: $light;
     margin-bottom: 120px;
     .products-row{
-        display: flex;
-        flex-direction: row;
+        @extend %display-flex-row;
         justify-content: space-between;
         margin-top: 129px;
     }
@@ -24,7 +23,7 @@
         border-radius: 9px;
         background: $primary;
         .btn-pruducts-bottom{
-            display: flex;
+            @extend %display-flex-row;
             align-items: center;
             padding: 25px 46px 16px 47px;
             cursor: pointer;
@@ -48,88 +47,58 @@
         margin-top: 67px;
         padding-bottom: 169px;
     }
-    // стили карточек
+    // стили карточек (верхние карточки)
     .card-layout{
-        width: 345px;
-        height: 345px;
-        z-index:1;
+        @extend %card-layout;
         .card-layout-p{
-            padding-left: 13px;
-            padding-right:12px;
+            @extend %card-layout-p;
         }
         .card-img{
-            position: absolute;
-            z-index: -1;
+            @extend %card-img;
         }
         .card-layout-title{
-            padding-top: 129px;
-            display: flex;
-            color: $primary;
-            font-size: 32px;
-            font-weight: 700;
-            line-height: 133.781%; 
-            letter-spacing: -0.16px;
+            @extend %card-layout-title;
         }
         .card-layout-text{
-            color: $light-text;
-            font-size: 24px;
-            font-weight: 400;
-            line-height: 106.281%; 
-            letter-spacing: -0.12px;
-            padding-top: 5px;
+            @extend %card-layout-text;
         }
+        // btn верхнич карточек
         .btn-card-layout{
-            display: inline-block;
-            border-radius: 9px;
-            background: $primary;
-            margin-top: 29px;
+            @extend %btn-card-layout;
             .btn-cards{
-                display: flex;
-                align-items: center;
-                padding: 19px 32px;
-                cursor: pointer;
+                @extend %btn-cards;
             }
             .btn-card{
-                color: rgba(23, 51, 52, 0.52);
-                font-size: 20px;
-                font-weight: 700;
-                line-height: 133.781%; 
-                letter-spacing: 2.2px;
-                border-radius: 9px;
+                @extend %btn-card;
             }
             .next-mal{
-                padding-left: 37px;
+                @extend %next-mal;
             }
         }
     }
     // two-card-section
-    .two-card-section{
-        display: flex;
-        flex-direction: row;
+    .two-card-section {
+        @extend %display-flex-row;
         gap: 14px;
         margin-top: 68px;
-        
+
     }
     .products-row-menu{
-        display: flex;
-        flex-direction: row;
+        @extend %display-flex-row;
         justify-content: space-between;
     }
     // начало верстки карточки==========================
     .container-card-menu{
-        display: flex;
-        flex-direction: row;
+        @extend %display-flex-row;
         flex-wrap: wrap;
-        gap: 38px;
+        gap: 39px;
         margin-top: 65px;
-        .card-menu{
-            width: 444px;
-            height: 716px;
+        margin-bottom: 24px;
+        .card-menu {
             border-radius: 10px;
             border: 2px solid $dark-text;
             .like-card-menu {
-                display: flex;
-                flex-direction: row;
+                @extend %display-flex-row;
                 justify-content: flex-end;
                 padding-right: 44px;
                 padding-top: 37px;
@@ -138,10 +107,7 @@
                 }
             }
            .fruits{
-               display: flex;
-               flex-direction: row;
-               justify-content: center;
-               align-items: center;
+            @extend %fruits;
                .img-menu{
                 padding-bottom: 38px;
                }
@@ -155,31 +121,172 @@
             
             // text card fructs
            .card-menu-oushen{
-            display: flex;
-            flex-direction: column;
-            gap: 7px;
-            padding-left: 27px;
+            @extend %card-menu-oushen;
                 .menu-oushen-text{
-                    display: flex;
-                    flex-direction: row;
-                    color: $dark-text;
-                    font-size: 24px;
-                    font-weight: 700;
+                    @extend %menu-oushen-text;
                     line-height: 133.781%; /* 32.108px */
                     letter-spacing: 2.64px;
+                    font-size: 24px;
                 }
                 .menu-oushen-subtext{
-                    display: flex;
-                    flex-direction: row;
-                    color: $dark-text;
-                    font-size: 36px;
-                    font-weight: 700;
+                    @extend %menu-oushen-text;
                     line-height: 133.781%; /* 48.161px */
                     letter-spacing: 3.96px;
+                    font-size: 36px;
                     
                 }
-           }
-        //  остановились на звездочка
+            }
+            // star (Звезды оценка)
+            .star{
+                @extend %display-flex-row;  
+                gap: 9px;
+                align-items: center;
+                padding-top: 9px;
+                padding-left: 27px;
+                .star-no-active-text{
+                    @extend %starNoActive-text;
+                    margin-bottom: -7px;
+                }
+                .stars-btn{
+                    cursor: pointer;
+                }
+            }
+            // star (Звезды оценка)
+            // Прайс
+            .price{
+                @extend %display-flex-row; 
+                padding-right: 52px;
+                padding-left: 27px;
+                padding-top: 16px;
+                
+                .price-row{
+                    @extend %display-flex-row;
+                    align-items: center;
+                    gap: 10px;
+                    .price-title{
+                        @extend %priceTitle;
+                    }
+                    .price-subtitle{
+                        @extend %price-Subtitl;
+                    }
+                }
+                .price-outdated{
+                    @extend %display-flex-row;
+                    padding-left: 34px;
+                    align-items: center;
+                    gap: 20px;
+                    .price-outdated-title{
+                        color: $dark-text;
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 133.781%; 
+                        letter-spacing: 2.64px;
+                        text-decoration-line:line-through;
+                    }
+                    .price-outdated-subtitle{
+                        color: $dark-text;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 133.781%; 
+                        letter-spacing: 1.76px;
+                        text-decoration-line:line-through;
+                    }
+                }
+            }
+            // size and quantity
+            .size-title-quantity{
+                @extend %display-flex-row;
+                justify-content: space-between;
+                padding-top: 32px;
+                padding-left: 27px;
+                padding-right: 116px;
+                .size-title{
+                    @extend %size-title;
+                }
+                .quantity-title{
+                    @extend %size-title;
+                }
+            }
+            .btn-cotigori{
+                @extend %display-flex-row;
+                padding-top: 10px;
+                padding-left: 27px;
+                gap: 20px;
+                .btn-kg{
+                    padding: 7px 13px 9px 13px;
+                    border-radius: 10px;
+                    border: 1px solid $dark-text;
+                    .content-cotigori{
+                        @extend %display-flex-row;
+                        align-items: center;
+                        .btn-number-kg{
+                           @extend %btn-card;
+                           color: $dark-text;
+                        }
+                        .secanda-kg{
+                            @extend %btn-card;
+                            color: $dark-text;
+                            padding-left: 100px;
+                        }
+                        .next-down{
+                            padding-left: 10px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .quantity{
+                    padding: 8px 6px 8px 6px;
+                    border-radius: 10px;
+                    border: 1px solid $dark-text;
+                    .minus{
+                        @extend %btn-card;
+                        font-weight: 400;
+                        color: $dark-text;
+                        cursor: pointer;
+                    }
+                    .quantity-text{
+                        @extend %btn-card;
+                        font-weight: 400;
+                        color: $dark-text;
+                        padding-left: 36px;
+                        padding-right: 36px;
+                    }
+                    .plus{
+                        @extend %btn-card;
+                        font-weight: 400;
+                        color: $dark-text;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .add-card{
+                @extend %display-flex-row;
+                padding-top:24px;
+                padding-left: 16px;
+                padding-right: 16px;
+                padding-bottom: 20px
+            }
+            .add{
+                @extend %display-flex-row;
+                border-radius: 9px;
+                background: #FFBE30;
+                padding: 12px 108px;
+                cursor: pointer;
+                .add-card-content{
+                    @extend %display-flex-row;
+                    align-items: center;
+                }
+                .add-card-title{
+                    color: $secondary-text;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.64px;
+                }
+                .next-add{
+                    padding-left: 20px;
+                }
+            }
         }
     }
 }
