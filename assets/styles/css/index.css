@@ -472,7 +472,7 @@ header .rectangle-three {
 }
 .section-products .container-card-menu {
   flex-wrap: wrap;
-  gap: 39px;
+  gap: 36px;
   margin-top: 65px;
   margin-bottom: 24px;
 }
