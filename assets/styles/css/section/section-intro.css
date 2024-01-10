@@ -48,10 +48,13 @@
 }
 .intro .intro-btn-bottom {
   display: flex;
+  align-items: center;
   flex-direction: row;
   padding-top: 59px;
 }
 .intro .intro-btn-bottom .btn-bottom {
+  display: flex;
+  align-items: center;
   padding: 25px 60px 20px 99px;
   border-radius: 9px;
   background: #fff;

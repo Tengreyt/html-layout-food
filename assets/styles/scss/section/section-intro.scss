@@ -54,9 +54,12 @@
     // btn bottom
     .intro-btn-bottom{
         display: flex;
+        align-items: center;
         flex-direction: row;
         padding-top: 59px;
         .btn-bottom{
+            display: flex;
+            align-items: center;
             padding: 25px 60px 20px 99px;
             border-radius: 9px;
             background: $light;

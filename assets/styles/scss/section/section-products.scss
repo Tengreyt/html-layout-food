@@ -1,0 +1,185 @@
+@import '../variables.scss';
+@import '../layout.scss';
+.section-products{
+    font-family: 'Kadwa', sans-serif;
+    background: $light;
+    margin-bottom: 120px;
+    .products-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 129px;
+    }
+    .product-text{
+        display: flex;
+        .product-text-l{
+            color: $dark-text;
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 133.781%; 
+            letter-spacing: -0.32px;
+        }
+    }
+    .btn-pruducts{
+        border-radius: 9px;
+        background: $primary;
+        .btn-pruducts-bottom{
+            display: flex;
+            align-items: center;
+            padding: 25px 46px 16px 47px;
+            cursor: pointer;
+            .btn-pruduct-text{
+                color: $secondary-text;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 133.781%; 
+                letter-spacing: 3.52px;
+            }
+            .btn-next-intro{
+                padding-left: 37px;
+            }
+        }
+    }
+    .products-card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 13px;
+        margin-top: 67px;
+        padding-bottom: 169px;
+    }
+    // стили карточек
+    .card-layout{
+        width: 345px;
+        height: 345px;
+        z-index:1;
+        .card-layout-p{
+            padding-left: 13px;
+            padding-right:12px;
+        }
+        .card-img{
+            position: absolute;
+            z-index: -1;
+        }
+        .card-layout-title{
+            padding-top: 129px;
+            display: flex;
+            color: $primary;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 133.781%; 
+            letter-spacing: -0.16px;
+        }
+        .card-layout-text{
+            color: $light-text;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 106.281%; 
+            letter-spacing: -0.12px;
+            padding-top: 5px;
+        }
+        .btn-card-layout{
+            display: inline-block;
+            border-radius: 9px;
+            background: $primary;
+            margin-top: 29px;
+            .btn-cards{
+                display: flex;
+                align-items: center;
+                padding: 19px 32px;
+                cursor: pointer;
+            }
+            .btn-card{
+                color: rgba(23, 51, 52, 0.52);
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 133.781%; 
+                letter-spacing: 2.2px;
+                border-radius: 9px;
+            }
+            .next-mal{
+                padding-left: 37px;
+            }
+        }
+    }
+    // two-card-section
+    .two-card-section{
+        display: flex;
+        flex-direction: row;
+        gap: 14px;
+        margin-top: 68px;
+        
+    }
+    .products-row-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    // начало верстки карточки==========================
+    .container-card-menu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 38px;
+        margin-top: 65px;
+        .card-menu{
+            width: 444px;
+            height: 716px;
+            border-radius: 10px;
+            border: 2px solid $dark-text;
+            .like-card-menu {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                padding-right: 44px;
+                padding-top: 37px;
+                .heart-no-active{
+                    cursor: pointer;
+                }
+            }
+           .fruits{
+               display: flex;
+               flex-direction: row;
+               justify-content: center;
+               align-items: center;
+               .img-menu{
+                padding-bottom: 38px;
+               }
+               .img-menu-juice{
+                padding-bottom: 7px;
+               }
+               .img-menu-lemon{
+                padding-bottom: 64px;
+               }
+           }
+            
+            // text card fructs
+           .card-menu-oushen{
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            padding-left: 27px;
+                .menu-oushen-text{
+                    display: flex;
+                    flex-direction: row;
+                    color: $dark-text;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 133.781%; /* 32.108px */
+                    letter-spacing: 2.64px;
+                }
+                .menu-oushen-subtext{
+                    display: flex;
+                    flex-direction: row;
+                    color: $dark-text;
+                    font-size: 36px;
+                    font-weight: 700;
+                    line-height: 133.781%; /* 48.161px */
+                    letter-spacing: 3.96px;
+                    
+                }
+           }
+        //  остановились на звездочка
+        }
+    }
+}
