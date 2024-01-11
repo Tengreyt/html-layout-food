@@ -1,18 +1,19 @@
 @import '../variables.scss';
-@import '../layout.scss';
-.section-products{
+@import './section-products.scss';
+
+.section-sale{
     font-family: 'Kadwa', sans-serif;
-    background: $light;
-    margin-bottom: 120px;
+    background: $secondary;
+    padding-bottom: 165px;
     .products-row{
         @extend %display-flex-row;
         justify-content: space-between;
-        margin-top: 129px;
+        padding-top: 158px;
     }
     .product-text{
         display: flex;
         .product-text-l{
-            color: $dark-text;
+            color: $light-text;
             font-size: 64px;
             font-weight: 700;
             line-height: 133.781%; 
@@ -39,60 +40,6 @@
             }
         }
     }
-    .products-card{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 13px;
-        margin-top: 67px;
-        padding-bottom: 169px;
-    }
-    // стили карточек (верхние карточки)
-    .card-layout{
-        @extend %card-layout;
-        .card-layout-p{
-            @extend %card-layout-p;
-        }
-        .card-img{
-            @extend %card-img;
-        }
-        .card-layout-title{
-            @extend %card-layout-title;
-        }
-        .card-layout-text{
-            @extend %card-layout-text;
-        }
-        // btn верхнич карточек
-        .btn-card-layout{
-            @extend %btn-card-layout;
-            .btn-cards{
-                @extend %btn-cards;
-            }
-            .btn-card{
-                color: rgba(23, 51, 52, 0.52);
-                font-size: 20px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 133.781%; 
-                letter-spacing: 2.2px;
-            }
-            .next-mal{
-                @extend %next-mal;
-            }
-        }
-    }
-    // two-card-section
-    .two-card-section {
-        @extend %display-flex-row;
-        gap: 14px;
-        margin-top: 68px;
-
-    }
-    .products-row-menu{
-        @extend %display-flex-row;
-        justify-content: space-between;
-    }
-    // начало верстки карточки==========================
     .container-card-menu{
         @extend %display-flex-row;
         flex-wrap: wrap;
@@ -101,7 +48,7 @@
         margin-bottom: 24px;
         .card-menu {
             border-radius: 10px;
-            border: 2px solid $dark-text;
+            border: 2px solid $light;
             .like-card-menu {
                 @extend %display-flex-row;
                 justify-content: flex-end;
@@ -128,17 +75,18 @@
            .card-menu-oushen{
             @extend %card-menu-oushen;
                 .menu-oushen-text{
-                    @extend %menu-oushen-text;
-                    line-height: 133.781%; /* 32.108px */
-                    letter-spacing: 2.64px;
+                    color: $light-text;
                     font-size: 24px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.64px;
                 }
                 .menu-oushen-subtext{
-                    @extend %menu-oushen-text;
-                    line-height: 133.781%; /* 48.161px */
-                    letter-spacing: 3.96px;
+                    color: $light-text;
                     font-size: 36px;
-                    
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 3.96px;
                 }
             }
             // star (Звезды оценка)
@@ -149,7 +97,11 @@
                 padding-top: 9px;
                 padding-left: 27px;
                 .star-no-active-text{
-                    @extend %starNoActive-text;
+                    color: $light-text;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 1.76px;
                     margin-bottom: -7px;
                 }
                 .stars-btn{
@@ -169,10 +121,14 @@
                     align-items: center;
                     gap: 10px;
                     .price-title{
-                        @extend %priceTitle;
+                        color: $light-text;
                     }
                     .price-subtitle{
-                        @extend %price-Subtitl;
+                        color: $light-text;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 133.781%; 
+                        letter-spacing: 1.76px;
                     }
                 }
                 .price-outdated{
@@ -181,7 +137,7 @@
                     align-items: center;
                     gap: 20px;
                     .price-outdated-title{
-                        color: $dark-text;
+                        color: $light-text;
                         font-size: 24px;
                         font-weight: 400;
                         line-height: 133.781%; 
@@ -189,7 +145,7 @@
                         text-decoration-line:line-through;
                     }
                     .price-outdated-subtitle{
-                        color: $dark-text;
+                        color: $light-text;
                         font-size: 16px;
                         font-weight: 400;
                         line-height: 133.781%; 
@@ -206,10 +162,18 @@
                 padding-left: 27px;
                 padding-right: 116px;
                 .size-title{
-                    @extend %size-title;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 133.781%; 
+                    letter-spacing: 1.76px;
+                    color: $light-text;
                 }
                 .quantity-title{
-                    @extend %size-title;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 133.781%; 
+                    letter-spacing: 1.76px;
+                    color: $light-text
                 }
             }
             .btn-cotigori{
@@ -220,21 +184,36 @@
                 .btn-kg{
                     padding: 10px 13px 9px 13px;
                     border-radius: 10px;
-                    border: 1px solid $dark-text;
+                    border: 1px solid $light-text;
                     .content-cotigori{
                         @extend %display-flex-row;
                         align-items: center;
                         .btn-number-kg{
-                           @extend %btn-card;
-                           color: $dark-text;
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 133.781%; 
+                            letter-spacing: 2.2px;
+                            color: $light-text;
                         }
                         .secanda-kg{
-                            @extend %btn-card;
-                            color: $dark-text;
-                            padding-left: 100px;
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 133.781%; 
+                            letter-spacing: 2.2px;
+                            color: $light-text;
+                            padding-left: 90px;
+                        }
+                        .secanda-kg-litre{
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 133.781%;
+                            letter-spacing: 2.2px;
+                            color: $light-text;
+                            padding-left: 32px;
                         }
                         .next-down{
                             padding-left: 10px;
+                            color: $light-text;
                             cursor: pointer;
                         }
                     }
@@ -242,24 +221,32 @@
                 .quantity{
                     padding: 8px 6px 8px 6px;
                     border-radius: 10px;
-                    border: 1px solid $dark-text;
+                    border: 1px solid $light-text;
                     .minus{
-                        @extend %btn-card;
+                        font-size: 20px;
                         font-weight: 400;
-                        color: $dark-text;
+                        line-height: 133.781%; 
+                        letter-spacing: 2.2px;
+                        font-weight: 400;
+                        color: $light-text;
                         cursor: pointer;
                     }
                     .quantity-text{
-                        @extend %btn-card;
                         font-weight: 400;
-                        color: $dark-text;
+                        font-size: 20px;
+                        color: $light-text;
+                        line-height: 133.781%; 
+                        letter-spacing: 2.2px;
                         padding-left: 36px;
                         padding-right: 36px;
                     }
                     .plus{
-                        @extend %btn-card;
+                        font-size: 20px;
                         font-weight: 400;
-                        color: $dark-text;
+                        line-height: 133.781%; 
+                        letter-spacing: 2.2px;
+                        font-weight: 400;
+                        color: $light-text;
                         cursor: pointer;
                     }
                 }
@@ -271,10 +258,17 @@
                 padding-right: 16px;
                 padding-bottom: 20px
             }
+            .add-card-litre{
+                @extend %display-flex-row;
+                padding-top:18px;
+                padding-left: 16px;
+                padding-right: 16px;
+                padding-bottom: 20px
+            }
             .add{
                 @extend %display-flex-row;
                 border-radius: 9px;
-                background: #FFBE30;
+                background: $primary;
                 padding: 12px 108px;
                 cursor: pointer;
                 .add-card-content{
@@ -282,7 +276,7 @@
                     align-items: center;
                 }
                 .add-card-title{
-                    color: $secondary-text;
+                    color: $light-text;
                     font-size: 24px;
                     font-weight: 400;
                     line-height: 133.781%; 

@@ -1,0 +1,401 @@
+@import '../variables.scss';
+@import '../layout.scss';
+.categories{
+    font-family: 'Kadwa', sans-serif;
+    background: $light;
+    margin-bottom: 128px;
+    .categories-title{
+        @extend %display-flex-row;
+        padding-top: 82px;
+        .categories-titles{
+            color: $secondary-text;
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 133.781%;
+            letter-spacing: -0.32px;
+        }
+    }
+    .categories-menu{
+        @extend %display-flex-row;
+        margin-top: 79px;
+        gap: 28px;
+        .card-grape{
+            position: relative;
+            border-radius: 15px;
+            background: $success;
+            .grape{
+                position: absolute;
+                top: -65px;
+                right: -15px;
+            }
+            .grape-text{
+                @extend %display-flex-row;
+                padding-top: 92px;
+                padding-left: 20px;
+                .grape-fruits{
+                    color: $dark-text;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.2px;
+                }
+            }
+            .grape-subtext{
+                @extend %display-flex-row;
+                padding-top: 5px;
+                padding-left: 20px;
+                .grape-garden{
+                    color: $dark-text;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.64px;
+                }
+            }
+            .star-categories{
+                @extend %display-flex-row;
+                align-items: center;
+                padding-top: 15px;
+                padding-left: 20px;
+                gap: 9px;
+                img{
+                    cursor: pointer;
+                }
+                .star-one-text{
+                    color: $light-text;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 1.76px;
+                    margin-bottom: -7px;
+                }
+            }
+            .price-tag{
+                @extend %display-flex-row;
+                align-items: center;
+                padding-left: 20px;
+                padding-top: 4px;
+                gap: 20px;
+                .price-tag-rub{
+                    color: $dark-text;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.64px;
+                }
+              .price-tag-rubs{
+                color: $dark-text;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 133.781%; 
+                letter-spacing: 1.76px;
+              }
+            }
+            .btn-grape{
+                @extend %display-flex-row;
+                padding-bottom: 22px;
+                padding-top: 10px;
+                padding-left: 20px;
+                padding-right: 85px;
+                .btn-grape-content{
+                    @extend %display-flex-row;
+                    align-items: center;
+                    border-radius: 9px;
+                    border: 1px solid $dark-text;
+                    background: $primary;
+                    padding: 19px 15px;
+                    gap: 25px;
+                    cursor: pointer;
+                    .btn-grape-title{
+                        color: $light-text;
+                        @extend %btn-card;
+                    }
+                }
+            }
+        }
+        // ====card-orange====
+        .card-orange{
+            position: relative;
+            border-radius: 15px;
+            background: $warning;
+            .orange{
+                position: absolute;
+                top: -30px;
+                right: 10px;
+            }
+            .grape-text{
+                @extend %display-flex-row;
+                padding-top: 92px;
+                padding-left: 20px;
+                .grape-fruits{
+                    color: $dark-text;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.2px;
+                }
+            }
+            .grape-subtext{
+                @extend %display-flex-row;
+                padding-top: 5px;
+                padding-left: 20px;
+                .grape-garden{
+                    color: $dark-text;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.64px;
+                }
+            }
+            .star-categories{
+                @extend %display-flex-row;
+                align-items: center;
+                padding-top: 15px;
+                padding-left: 20px;
+                gap: 9px;
+                img{
+                    cursor: pointer;
+                }
+                .star-one-text{
+                    color: $light-text;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 1.76px;
+                    margin-bottom: -7px
+                }
+            }
+            .price-tag{
+                @extend %display-flex-row;
+                align-items: center;
+                padding-left: 20px;
+                padding-top: 4px;
+                gap: 20px;
+                .price-tag-rub{
+                    color: $dark-text;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.64px;
+                }
+              .price-tag-rubs{
+                color: $dark-text;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 133.781%; 
+                letter-spacing: 1.76px;
+              }
+            }
+            .btn-grape{
+                @extend %display-flex-row;
+                padding-bottom: 22px;
+                padding-top: 10px;
+                padding-left: 20px;
+                padding-right: 85px;
+                .btn-grape-content{
+                    @extend %display-flex-row;
+                    align-items: center;
+                    border-radius: 9px;
+                    border: 1px solid $dark-text;
+                    background: $primary;
+                    padding: 19px 15px;
+                    gap: 25px;
+                    cursor: pointer;
+                    .btn-grape-title{
+                        color: $light-text;
+                        @extend %btn-card;
+                    }
+                }
+            }
+        }
+        // card card-kiwi 
+        .card-kiwi{
+            position: relative;
+            border-radius: 15px;
+            background: $danger;
+            .kiwi{
+                position: absolute;
+                top: -42px;
+                right: 5px;
+            }
+            .grape-text{
+                @extend %display-flex-row;
+                padding-top: 92px;
+                padding-left: 20px;
+                .grape-fruits{
+                    color: $dark-text;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.2px;
+                }
+            }
+            .grape-subtext{
+                @extend %display-flex-row;
+                padding-top: 5px;
+                padding-left: 20px;
+                .grape-garden{
+                    color: $dark-text;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.64px;
+                }
+            }
+            .star-categories{
+                @extend %display-flex-row;
+                align-items: center;
+                padding-top: 15px;
+                padding-left: 20px;
+                gap: 9px;
+                img{
+                    cursor: pointer;
+                }
+                .star-one-text{
+                    color: $light-text;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 1.76px;
+                    margin-bottom: -7px
+                }
+            }
+            .price-tag{
+                @extend %display-flex-row;
+                align-items: center;
+                padding-left: 20px;
+                padding-top: 4px;
+                gap: 20px;
+                .price-tag-rub{
+                    color: $dark-text;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.64px;
+                }
+              .price-tag-rubs{
+                color: $dark-text;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 133.781%; 
+                letter-spacing: 1.76px;
+              }
+            }
+            .btn-grape{
+                @extend %display-flex-row;
+                padding-bottom: 22px;
+                padding-top: 10px;
+                padding-left: 20px;
+                padding-right: 85px;
+                .btn-grape-content{
+                    @extend %display-flex-row;
+                    align-items: center;
+                    border-radius: 9px;
+                    border: 1px solid $dark-text;
+                    background: $primary;
+                    padding: 19px 15px;
+                    gap: 25px;
+                    .btn-grape-title{
+                        color: $light-text;
+                        @extend %btn-card;
+                    }
+                }
+            }
+        }
+        // card-croissant
+        .card-croissant{
+            position: relative;
+            border-radius: 15px;
+            background: $medium;
+            .croissant{
+                position: absolute;
+                top: -34px;
+                right: -70px;
+            }
+            .grape-text{
+                @extend %display-flex-row;
+                padding-top: 92px;
+                padding-left: 20px;
+                .grape-fruits{
+                    color: $dark-text;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.2px;
+                }
+            }
+            .grape-subtext{
+                @extend %display-flex-row;
+                padding-top: 5px;
+                padding-left: 20px;
+                .grape-garden{
+                    color: $dark-text;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.64px;
+                }
+            }
+            .star-categories{
+                @extend %display-flex-row;
+                align-items: center;
+                padding-top: 15px;
+                padding-left: 20px;
+                gap: 9px;
+                img{
+                    cursor: pointer;
+                }
+                .star-one-text{
+                    color: $light-text;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 1.76px;
+                    margin-bottom: -7px
+                }
+            }
+            .price-tag{
+                @extend %display-flex-row;
+                align-items: center;
+                padding-left: 20px;
+                padding-top: 4px;
+                gap: 20px;
+                .price-tag-rub{
+                    color: $dark-text;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.64px;
+                }
+              .price-tag-rubs{
+                color: $dark-text;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 133.781%; 
+                letter-spacing: 1.76px;
+              }
+            }
+            .btn-grape{
+                @extend %display-flex-row;
+                padding-bottom: 22px;
+                padding-top: 10px;
+                padding-left: 20px;
+                padding-right: 85px;
+                .btn-grape-content{
+                    @extend %display-flex-row;
+                    align-items: center;
+                    border-radius: 9px;
+                    border: 1px solid $dark-text;
+                    background: $primary;
+                    padding: 19px 25px;
+                    gap: 25px;
+                    cursor: pointer;
+                    .btn-grape-title{
+                        color: $light-text;
+                        @extend %btn-card;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -62,8 +62,8 @@
   cursor: pointer;
 }
 
-.section-products .container-card-menu .card-menu .btn-cotigori .quantity .plus, .section-products .container-card-menu .card-menu .btn-cotigori .quantity .quantity-text, .section-products .container-card-menu .card-menu .btn-cotigori .quantity .minus, .section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori .secanda-kg, .section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori .btn-number-kg, .section-products .card-layout .btn-card-layout .btn-card {
-  color: rgba(23, 51, 52, 0.52);
+.section-products .container-card-menu .card-menu .btn-cotigori .quantity .plus, .section-products .container-card-menu .card-menu .btn-cotigori .quantity .quantity-text, .section-products .container-card-menu .card-menu .btn-cotigori .quantity .minus, .section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori .secanda-kg, .section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori .btn-number-kg {
+  color: #000;
   font-size: 20px;
   font-weight: 700;
   line-height: 133.781%;
@@ -174,6 +174,14 @@
   gap: 13px;
   margin-top: 67px;
   padding-bottom: 169px;
+}
+.section-products .card-layout .btn-card-layout .btn-card {
+  color: rgba(23, 51, 52, 0.52);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: 2.2px;
 }
 .section-products .two-card-section {
   gap: 14px;
