@@ -1,1 +1,52 @@
 @import '../variables.scss';
+@import '../layout.scss';
+.honunload{
+    font-family: 'Kadwa', sans-serif;
+    background: $light;
+    margin-bottom: 128px;
+    padding-top: 87px;
+    padding-bottom: 143px;
+    .honunload-content{
+       @extend %display-flex-row;
+       .timonials{
+            .timonials-title{
+            display: flex;
+            color: $secondary-text;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 133.781%; 
+            letter-spacing: -0.3px;
+            }
+            .timonials-subtitle{
+                color: $dark-text;
+                width: 653px;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 133.781%; 
+                letter-spacing: -0.1px;
+                padding-top: 42px;
+            }
+        }
+        .btn-read {
+            @extend %display-flex-row;
+            padding-top: 73px;
+            .btn-read-all{
+                display: flex;
+                border-radius: 9px;
+                align-items: center;
+                background: $primary;
+                padding: 19px 32px;
+            }
+            .btn-read-text{
+                color: $dark-text;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 133.781%;
+                letter-spacing: 2.64px;
+            }
+            .next-mal{
+                padding-left: 37px;
+            }
+        }
+    }
+}

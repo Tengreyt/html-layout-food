@@ -14,6 +14,11 @@ $dark-text:#000;
 $light-text: #ffffff;
 $secondary-text: #173334;
 $secondary-opaciti:rgba(23, 51, 52, 0.52);
+// var let : 1;
+feColorMatrix {
+    color: $dark-text;
+    font-size: 22px;
+}
 // colors
 
   

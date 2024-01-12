@@ -1,3 +1,76 @@
+feColorMatrix {
+  color: #000;
+  font-size: 22px;
+}
 
+feColorMatrix {
+  color: #000;
+  font-size: 22px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+.onoffline-container {
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
+.honunload .honunload-content .btn-read, .honunload .honunload-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.honunload {
+  font-family: "Kadwa", sans-serif;
+  background: #fff;
+  margin-bottom: 128px;
+  padding-top: 87px;
+  padding-bottom: 143px;
+}
+.honunload .honunload-content .timonials .timonials-title {
+  display: flex;
+  color: #173334;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: -0.3px;
+}
+.honunload .honunload-content .timonials .timonials-subtitle {
+  color: #000;
+  width: 653px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 133.781%;
+  letter-spacing: -0.1px;
+  padding-top: 42px;
+}
+.honunload .honunload-content .btn-read {
+  padding-top: 73px;
+}
+.honunload .honunload-content .btn-read .btn-read-all {
+  display: flex;
+  border-radius: 9px;
+  align-items: center;
+  background: #FFBE30;
+  padding: 19px 32px;
+}
+.honunload .honunload-content .btn-read .btn-read-text {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: 2.64px;
+}
+.honunload .honunload-content .btn-read .next-mal {
+  padding-left: 37px;
+}
 
 /*# sourceMappingURL=section-honunload.css.map */

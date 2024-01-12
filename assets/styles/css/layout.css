@@ -1,17 +1,21 @@
-/* Error: Undefined variable.
- *    ,
- * 37 |     color: $primary;
- *    |            ^^^^^^^^
- *    '
- *   assets\styles\scss\layout.scss 37:12  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 37 \2502      color: $primary;\d\a    \2502             ^^^^^^^^\a    \2575 \a   assets\\styles\\scss\\layout.scss 37:12  root stylesheet";
+feColorMatrix {
+  color: #000;
+  font-size: 22px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+.onoffline-container {
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=layout.css.map */
