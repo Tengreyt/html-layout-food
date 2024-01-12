@@ -9,7 +9,12 @@
   margin: 0 auto;
 }
 
-.categories .categories-menu .card-croissant .btn-grape .btn-grape-content, .categories .categories-menu .card-croissant .btn-grape, .categories .categories-menu .card-croissant .price-tag, .categories .categories-menu .card-croissant .star-categories, .categories .categories-menu .card-croissant .grape-subtext, .categories .categories-menu .card-croissant .grape-text, .categories .categories-menu .card-kiwi .btn-grape .btn-grape-content, .categories .categories-menu .card-kiwi .btn-grape, .categories .categories-menu .card-kiwi .price-tag, .categories .categories-menu .card-kiwi .star-categories, .categories .categories-menu .card-kiwi .grape-subtext, .categories .categories-menu .card-kiwi .grape-text, .categories .categories-menu .card-orange .btn-grape .btn-grape-content, .categories .categories-menu .card-orange .btn-grape, .categories .categories-menu .card-orange .price-tag, .categories .categories-menu .card-orange .star-categories, .categories .categories-menu .card-orange .grape-subtext, .categories .categories-menu .card-orange .grape-text, .categories .categories-menu .card-grape .btn-grape .btn-grape-content, .categories .categories-menu .card-grape .btn-grape, .categories .categories-menu .card-grape .price-tag, .categories .categories-menu .card-grape .star-categories, .categories .categories-menu .card-grape .grape-subtext, .categories .categories-menu .card-grape .grape-text, .categories .categories-menu, .categories .categories-title, .section-sale .container-card-menu .card-menu .add .add-card-content, .section-sale .container-card-menu .card-menu .add, .section-sale .container-card-menu .card-menu .add-card-litre, .section-sale .container-card-menu .card-menu .add-card, .section-sale .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-sale .container-card-menu .card-menu .btn-cotigori, .section-sale .container-card-menu .card-menu .size-title-quantity, .section-sale .container-card-menu .card-menu .price .price-outdated, .section-sale .container-card-menu .card-menu .price .price-row, .section-sale .container-card-menu .card-menu .price, .section-sale .container-card-menu .card-menu .star, .section-sale .container-card-menu .card-menu .like-card-menu, .section-sale .container-card-menu, .section-sale .btn-pruducts .btn-pruducts-bottom, .section-sale .products-row, .section-products .container-card-menu .card-menu .add .add-card-content, .section-products .container-card-menu .card-menu .add, .section-products .container-card-menu .card-menu .add-card, .section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-products .container-card-menu .card-menu .btn-cotigori, .section-products .container-card-menu .card-menu .size-title-quantity, .section-products .container-card-menu .card-menu .price .price-outdated, .section-products .container-card-menu .card-menu .price .price-row, .section-products .container-card-menu .card-menu .price, .section-products .container-card-menu .card-menu .star, .section-products .container-card-menu .card-menu .like-card-menu, .section-products .container-card-menu, .section-products .products-row-menu, .section-products .two-card-section, .section-products .btn-pruducts .btn-pruducts-bottom, .section-products .products-row {
+.onoffline-container {
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
+.onoffline .onoffline-container .btn-bakery-layout, .onoffline .onoffline-container .btn-frutic-layout .btn-frutic, .onoffline .onoffline-container .btn-frutic-layout, .onoffline .onoffline-container, .categories .categories-menu .card-croissant .btn-grape .btn-grape-content, .categories .categories-menu .card-croissant .btn-grape, .categories .categories-menu .card-croissant .price-tag, .categories .categories-menu .card-croissant .star-categories, .categories .categories-menu .card-croissant .grape-subtext, .categories .categories-menu .card-croissant .grape-text, .categories .categories-menu .card-kiwi .btn-grape .btn-grape-content, .categories .categories-menu .card-kiwi .btn-grape, .categories .categories-menu .card-kiwi .price-tag, .categories .categories-menu .card-kiwi .star-categories, .categories .categories-menu .card-kiwi .grape-subtext, .categories .categories-menu .card-kiwi .grape-text, .categories .categories-menu .card-orange .btn-grape .btn-grape-content, .categories .categories-menu .card-orange .btn-grape, .categories .categories-menu .card-orange .price-tag, .categories .categories-menu .card-orange .star-categories, .categories .categories-menu .card-orange .grape-subtext, .categories .categories-menu .card-orange .grape-text, .categories .categories-menu .card-grape .btn-grape .btn-grape-content, .categories .categories-menu .card-grape .btn-grape, .categories .categories-menu .card-grape .price-tag, .categories .categories-menu .card-grape .star-categories, .categories .categories-menu .card-grape .grape-subtext, .categories .categories-menu .card-grape .grape-text, .categories .categories-menu, .categories .categories-title, .section-sale .container-card-menu .card-menu .add .add-card-content, .section-sale .container-card-menu .card-menu .add, .section-sale .container-card-menu .card-menu .add-card-litre, .section-sale .container-card-menu .card-menu .add-card, .section-sale .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-sale .container-card-menu .card-menu .btn-cotigori, .section-sale .container-card-menu .card-menu .size-title-quantity, .section-sale .container-card-menu .card-menu .price .price-outdated, .section-sale .container-card-menu .card-menu .price .price-row, .section-sale .container-card-menu .card-menu .price, .section-sale .container-card-menu .card-menu .star, .section-sale .container-card-menu .card-menu .like-card-menu, .section-sale .container-card-menu, .section-sale .btn-pruducts .btn-pruducts-bottom, .section-sale .products-row, .section-products .container-card-menu .card-menu .add .add-card-content, .section-products .container-card-menu .card-menu .add, .section-products .container-card-menu .card-menu .add-card, .section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-products .container-card-menu .card-menu .btn-cotigori, .section-products .container-card-menu .card-menu .size-title-quantity, .section-products .container-card-menu .card-menu .price .price-outdated, .section-products .container-card-menu .card-menu .price .price-row, .section-products .container-card-menu .card-menu .price, .section-products .container-card-menu .card-menu .star, .section-products .container-card-menu .card-menu .like-card-menu, .section-products .container-card-menu, .section-products .products-row-menu, .section-products .two-card-section, .section-products .btn-pruducts .btn-pruducts-bottom, .section-products .products-row {
   display: flex;
   flex-direction: row;
 }
@@ -296,7 +301,12 @@ header .rectangle-three {
   margin: 0 auto;
 }
 
-.categories .categories-menu .card-croissant .btn-grape .btn-grape-content, .categories .categories-menu .card-croissant .btn-grape, .categories .categories-menu .card-croissant .price-tag, .categories .categories-menu .card-croissant .star-categories, .categories .categories-menu .card-croissant .grape-subtext, .categories .categories-menu .card-croissant .grape-text, .categories .categories-menu .card-kiwi .btn-grape .btn-grape-content, .categories .categories-menu .card-kiwi .btn-grape, .categories .categories-menu .card-kiwi .price-tag, .categories .categories-menu .card-kiwi .star-categories, .categories .categories-menu .card-kiwi .grape-subtext, .categories .categories-menu .card-kiwi .grape-text, .categories .categories-menu .card-orange .btn-grape .btn-grape-content, .categories .categories-menu .card-orange .btn-grape, .categories .categories-menu .card-orange .price-tag, .categories .categories-menu .card-orange .star-categories, .categories .categories-menu .card-orange .grape-subtext, .categories .categories-menu .card-orange .grape-text, .categories .categories-menu .card-grape .btn-grape .btn-grape-content, .categories .categories-menu .card-grape .btn-grape, .categories .categories-menu .card-grape .price-tag, .categories .categories-menu .card-grape .star-categories, .categories .categories-menu .card-grape .grape-subtext, .categories .categories-menu .card-grape .grape-text, .categories .categories-menu, .categories .categories-title, .section-sale .container-card-menu .card-menu .add .add-card-content, .section-sale .container-card-menu .card-menu .add, .section-sale .container-card-menu .card-menu .add-card-litre, .section-sale .container-card-menu .card-menu .add-card, .section-sale .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-sale .container-card-menu .card-menu .btn-cotigori, .section-sale .container-card-menu .card-menu .size-title-quantity, .section-sale .container-card-menu .card-menu .price .price-outdated, .section-sale .container-card-menu .card-menu .price .price-row, .section-sale .container-card-menu .card-menu .price, .section-sale .container-card-menu .card-menu .star, .section-sale .container-card-menu .card-menu .like-card-menu, .section-sale .container-card-menu, .section-sale .btn-pruducts .btn-pruducts-bottom, .section-sale .products-row, .section-products .container-card-menu .card-menu .add .add-card-content, .section-products .container-card-menu .card-menu .add, .section-products .container-card-menu .card-menu .add-card, .section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-products .container-card-menu .card-menu .btn-cotigori, .section-products .container-card-menu .card-menu .size-title-quantity, .section-products .container-card-menu .card-menu .price .price-outdated, .section-products .container-card-menu .card-menu .price .price-row, .section-products .container-card-menu .card-menu .price, .section-products .container-card-menu .card-menu .star, .section-products .container-card-menu .card-menu .like-card-menu, .section-products .container-card-menu, .section-products .products-row-menu, .section-products .two-card-section, .section-products .btn-pruducts .btn-pruducts-bottom, .section-products .products-row {
+.onoffline-container {
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
+.onoffline .onoffline-container .btn-bakery-layout, .onoffline .onoffline-container .btn-frutic-layout .btn-frutic, .onoffline .onoffline-container .btn-frutic-layout, .onoffline .onoffline-container, .categories .categories-menu .card-croissant .btn-grape .btn-grape-content, .categories .categories-menu .card-croissant .btn-grape, .categories .categories-menu .card-croissant .price-tag, .categories .categories-menu .card-croissant .star-categories, .categories .categories-menu .card-croissant .grape-subtext, .categories .categories-menu .card-croissant .grape-text, .categories .categories-menu .card-kiwi .btn-grape .btn-grape-content, .categories .categories-menu .card-kiwi .btn-grape, .categories .categories-menu .card-kiwi .price-tag, .categories .categories-menu .card-kiwi .star-categories, .categories .categories-menu .card-kiwi .grape-subtext, .categories .categories-menu .card-kiwi .grape-text, .categories .categories-menu .card-orange .btn-grape .btn-grape-content, .categories .categories-menu .card-orange .btn-grape, .categories .categories-menu .card-orange .price-tag, .categories .categories-menu .card-orange .star-categories, .categories .categories-menu .card-orange .grape-subtext, .categories .categories-menu .card-orange .grape-text, .categories .categories-menu .card-grape .btn-grape .btn-grape-content, .categories .categories-menu .card-grape .btn-grape, .categories .categories-menu .card-grape .price-tag, .categories .categories-menu .card-grape .star-categories, .categories .categories-menu .card-grape .grape-subtext, .categories .categories-menu .card-grape .grape-text, .categories .categories-menu, .categories .categories-title, .section-sale .container-card-menu .card-menu .add .add-card-content, .section-sale .container-card-menu .card-menu .add, .section-sale .container-card-menu .card-menu .add-card-litre, .section-sale .container-card-menu .card-menu .add-card, .section-sale .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-sale .container-card-menu .card-menu .btn-cotigori, .section-sale .container-card-menu .card-menu .size-title-quantity, .section-sale .container-card-menu .card-menu .price .price-outdated, .section-sale .container-card-menu .card-menu .price .price-row, .section-sale .container-card-menu .card-menu .price, .section-sale .container-card-menu .card-menu .star, .section-sale .container-card-menu .card-menu .like-card-menu, .section-sale .container-card-menu, .section-sale .btn-pruducts .btn-pruducts-bottom, .section-sale .products-row, .section-products .container-card-menu .card-menu .add .add-card-content, .section-products .container-card-menu .card-menu .add, .section-products .container-card-menu .card-menu .add-card, .section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-products .container-card-menu .card-menu .btn-cotigori, .section-products .container-card-menu .card-menu .size-title-quantity, .section-products .container-card-menu .card-menu .price .price-outdated, .section-products .container-card-menu .card-menu .price .price-row, .section-products .container-card-menu .card-menu .price, .section-products .container-card-menu .card-menu .star, .section-products .container-card-menu .card-menu .like-card-menu, .section-products .container-card-menu, .section-products .products-row-menu, .section-products .two-card-section, .section-products .btn-pruducts .btn-pruducts-bottom, .section-products .products-row {
   display: flex;
   flex-direction: row;
 }
@@ -644,7 +654,12 @@ header .rectangle-three {
   margin: 0 auto;
 }
 
-.categories .categories-menu .card-croissant .btn-grape .btn-grape-content, .categories .categories-menu .card-croissant .btn-grape, .categories .categories-menu .card-croissant .price-tag, .categories .categories-menu .card-croissant .star-categories, .categories .categories-menu .card-croissant .grape-subtext, .categories .categories-menu .card-croissant .grape-text, .categories .categories-menu .card-kiwi .btn-grape .btn-grape-content, .categories .categories-menu .card-kiwi .btn-grape, .categories .categories-menu .card-kiwi .price-tag, .categories .categories-menu .card-kiwi .star-categories, .categories .categories-menu .card-kiwi .grape-subtext, .categories .categories-menu .card-kiwi .grape-text, .categories .categories-menu .card-orange .btn-grape .btn-grape-content, .categories .categories-menu .card-orange .btn-grape, .categories .categories-menu .card-orange .price-tag, .categories .categories-menu .card-orange .star-categories, .categories .categories-menu .card-orange .grape-subtext, .categories .categories-menu .card-orange .grape-text, .categories .categories-menu .card-grape .btn-grape .btn-grape-content, .categories .categories-menu .card-grape .btn-grape, .categories .categories-menu .card-grape .price-tag, .categories .categories-menu .card-grape .star-categories, .categories .categories-menu .card-grape .grape-subtext, .categories .categories-menu .card-grape .grape-text, .categories .categories-menu, .categories .categories-title, .section-sale .container-card-menu .card-menu .add .add-card-content, .section-sale .container-card-menu .card-menu .add, .section-sale .container-card-menu .card-menu .add-card-litre, .section-sale .container-card-menu .card-menu .add-card, .section-sale .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-sale .container-card-menu .card-menu .btn-cotigori, .section-sale .container-card-menu .card-menu .size-title-quantity, .section-sale .container-card-menu .card-menu .price .price-outdated, .section-sale .container-card-menu .card-menu .price .price-row, .section-sale .container-card-menu .card-menu .price, .section-sale .container-card-menu .card-menu .star, .section-sale .container-card-menu .card-menu .like-card-menu, .section-sale .container-card-menu, .section-sale .btn-pruducts .btn-pruducts-bottom, .section-sale .products-row, .section-products .products-row, .section-products .btn-pruducts .btn-pruducts-bottom, .section-products .two-card-section, .section-products .products-row-menu, .section-products .container-card-menu, .section-products .container-card-menu .card-menu .like-card-menu, .section-products .container-card-menu .card-menu .star, .section-products .container-card-menu .card-menu .price, .section-products .container-card-menu .card-menu .price .price-row, .section-products .container-card-menu .card-menu .price .price-outdated, .section-products .container-card-menu .card-menu .size-title-quantity, .section-products .container-card-menu .card-menu .btn-cotigori, .section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-products .container-card-menu .card-menu .add-card, .section-products .container-card-menu .card-menu .add, .section-products .container-card-menu .card-menu .add .add-card-content {
+.onoffline-container {
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
+.onoffline .onoffline-container .btn-bakery-layout, .onoffline .onoffline-container .btn-frutic-layout .btn-frutic, .onoffline .onoffline-container .btn-frutic-layout, .onoffline .onoffline-container, .categories .categories-menu .card-croissant .btn-grape .btn-grape-content, .categories .categories-menu .card-croissant .btn-grape, .categories .categories-menu .card-croissant .price-tag, .categories .categories-menu .card-croissant .star-categories, .categories .categories-menu .card-croissant .grape-subtext, .categories .categories-menu .card-croissant .grape-text, .categories .categories-menu .card-kiwi .btn-grape .btn-grape-content, .categories .categories-menu .card-kiwi .btn-grape, .categories .categories-menu .card-kiwi .price-tag, .categories .categories-menu .card-kiwi .star-categories, .categories .categories-menu .card-kiwi .grape-subtext, .categories .categories-menu .card-kiwi .grape-text, .categories .categories-menu .card-orange .btn-grape .btn-grape-content, .categories .categories-menu .card-orange .btn-grape, .categories .categories-menu .card-orange .price-tag, .categories .categories-menu .card-orange .star-categories, .categories .categories-menu .card-orange .grape-subtext, .categories .categories-menu .card-orange .grape-text, .categories .categories-menu .card-grape .btn-grape .btn-grape-content, .categories .categories-menu .card-grape .btn-grape, .categories .categories-menu .card-grape .price-tag, .categories .categories-menu .card-grape .star-categories, .categories .categories-menu .card-grape .grape-subtext, .categories .categories-menu .card-grape .grape-text, .categories .categories-menu, .categories .categories-title, .section-sale .container-card-menu .card-menu .add .add-card-content, .section-sale .container-card-menu .card-menu .add, .section-sale .container-card-menu .card-menu .add-card-litre, .section-sale .container-card-menu .card-menu .add-card, .section-sale .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-sale .container-card-menu .card-menu .btn-cotigori, .section-sale .container-card-menu .card-menu .size-title-quantity, .section-sale .container-card-menu .card-menu .price .price-outdated, .section-sale .container-card-menu .card-menu .price .price-row, .section-sale .container-card-menu .card-menu .price, .section-sale .container-card-menu .card-menu .star, .section-sale .container-card-menu .card-menu .like-card-menu, .section-sale .container-card-menu, .section-sale .btn-pruducts .btn-pruducts-bottom, .section-sale .products-row, .section-products .products-row, .section-products .btn-pruducts .btn-pruducts-bottom, .section-products .two-card-section, .section-products .products-row-menu, .section-products .container-card-menu, .section-products .container-card-menu .card-menu .like-card-menu, .section-products .container-card-menu .card-menu .star, .section-products .container-card-menu .card-menu .price, .section-products .container-card-menu .card-menu .price .price-row, .section-products .container-card-menu .card-menu .price .price-outdated, .section-products .container-card-menu .card-menu .size-title-quantity, .section-products .container-card-menu .card-menu .btn-cotigori, .section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-products .container-card-menu .card-menu .add-card, .section-products .container-card-menu .card-menu .add, .section-products .container-card-menu .card-menu .add .add-card-content {
   display: flex;
   flex-direction: row;
 }
@@ -1253,7 +1268,12 @@ header .rectangle-three {
   margin: 0 auto;
 }
 
-.categories .categories-menu .card-croissant .btn-grape .btn-grape-content, .categories .categories-menu .card-croissant .btn-grape, .categories .categories-menu .card-croissant .price-tag, .categories .categories-menu .card-croissant .star-categories, .categories .categories-menu .card-croissant .grape-subtext, .categories .categories-menu .card-croissant .grape-text, .categories .categories-menu .card-kiwi .btn-grape .btn-grape-content, .categories .categories-menu .card-kiwi .btn-grape, .categories .categories-menu .card-kiwi .price-tag, .categories .categories-menu .card-kiwi .star-categories, .categories .categories-menu .card-kiwi .grape-subtext, .categories .categories-menu .card-kiwi .grape-text, .categories .categories-menu .card-orange .btn-grape .btn-grape-content, .categories .categories-menu .card-orange .btn-grape, .categories .categories-menu .card-orange .price-tag, .categories .categories-menu .card-orange .star-categories, .categories .categories-menu .card-orange .grape-subtext, .categories .categories-menu .card-orange .grape-text, .categories .categories-menu .card-grape .btn-grape .btn-grape-content, .categories .categories-menu .card-grape .btn-grape, .categories .categories-menu .card-grape .price-tag, .categories .categories-menu .card-grape .star-categories, .categories .categories-menu .card-grape .grape-subtext, .categories .categories-menu .card-grape .grape-text, .categories .categories-menu, .categories .categories-title, .section-products .products-row, .section-products .btn-pruducts .btn-pruducts-bottom, .section-products .two-card-section, .section-products .products-row-menu, .section-products .container-card-menu, .section-products .container-card-menu .card-menu .like-card-menu, .section-products .container-card-menu .card-menu .star, .section-products .container-card-menu .card-menu .price, .section-products .container-card-menu .card-menu .price .price-row, .section-products .container-card-menu .card-menu .price .price-outdated, .section-products .container-card-menu .card-menu .size-title-quantity, .section-products .container-card-menu .card-menu .btn-cotigori, .section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-products .container-card-menu .card-menu .add-card, .section-products .container-card-menu .card-menu .add, .section-products .container-card-menu .card-menu .add .add-card-content, .section-sale .products-row, .section-sale .btn-pruducts .btn-pruducts-bottom, .section-sale .container-card-menu, .section-sale .container-card-menu .card-menu .like-card-menu, .section-sale .container-card-menu .card-menu .star, .section-sale .container-card-menu .card-menu .price, .section-sale .container-card-menu .card-menu .price .price-row, .section-sale .container-card-menu .card-menu .price .price-outdated, .section-sale .container-card-menu .card-menu .size-title-quantity, .section-sale .container-card-menu .card-menu .btn-cotigori, .section-sale .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-sale .container-card-menu .card-menu .add-card, .section-sale .container-card-menu .card-menu .add-card-litre, .section-sale .container-card-menu .card-menu .add, .section-sale .container-card-menu .card-menu .add .add-card-content {
+.onoffline-container {
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
+.onoffline .onoffline-container .btn-bakery-layout, .onoffline .onoffline-container .btn-frutic-layout .btn-frutic, .onoffline .onoffline-container .btn-frutic-layout, .onoffline .onoffline-container, .categories .categories-menu .card-croissant .btn-grape .btn-grape-content, .categories .categories-menu .card-croissant .btn-grape, .categories .categories-menu .card-croissant .price-tag, .categories .categories-menu .card-croissant .star-categories, .categories .categories-menu .card-croissant .grape-subtext, .categories .categories-menu .card-croissant .grape-text, .categories .categories-menu .card-kiwi .btn-grape .btn-grape-content, .categories .categories-menu .card-kiwi .btn-grape, .categories .categories-menu .card-kiwi .price-tag, .categories .categories-menu .card-kiwi .star-categories, .categories .categories-menu .card-kiwi .grape-subtext, .categories .categories-menu .card-kiwi .grape-text, .categories .categories-menu .card-orange .btn-grape .btn-grape-content, .categories .categories-menu .card-orange .btn-grape, .categories .categories-menu .card-orange .price-tag, .categories .categories-menu .card-orange .star-categories, .categories .categories-menu .card-orange .grape-subtext, .categories .categories-menu .card-orange .grape-text, .categories .categories-menu .card-grape .btn-grape .btn-grape-content, .categories .categories-menu .card-grape .btn-grape, .categories .categories-menu .card-grape .price-tag, .categories .categories-menu .card-grape .star-categories, .categories .categories-menu .card-grape .grape-subtext, .categories .categories-menu .card-grape .grape-text, .categories .categories-menu, .categories .categories-title, .section-products .products-row, .section-products .btn-pruducts .btn-pruducts-bottom, .section-products .two-card-section, .section-products .products-row-menu, .section-products .container-card-menu, .section-products .container-card-menu .card-menu .like-card-menu, .section-products .container-card-menu .card-menu .star, .section-products .container-card-menu .card-menu .price, .section-products .container-card-menu .card-menu .price .price-row, .section-products .container-card-menu .card-menu .price .price-outdated, .section-products .container-card-menu .card-menu .size-title-quantity, .section-products .container-card-menu .card-menu .btn-cotigori, .section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-products .container-card-menu .card-menu .add-card, .section-products .container-card-menu .card-menu .add, .section-products .container-card-menu .card-menu .add .add-card-content, .section-sale .products-row, .section-sale .btn-pruducts .btn-pruducts-bottom, .section-sale .container-card-menu, .section-sale .container-card-menu .card-menu .like-card-menu, .section-sale .container-card-menu .card-menu .star, .section-sale .container-card-menu .card-menu .price, .section-sale .container-card-menu .card-menu .price .price-row, .section-sale .container-card-menu .card-menu .price .price-outdated, .section-sale .container-card-menu .card-menu .size-title-quantity, .section-sale .container-card-menu .card-menu .btn-cotigori, .section-sale .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-sale .container-card-menu .card-menu .add-card, .section-sale .container-card-menu .card-menu .add-card-litre, .section-sale .container-card-menu .card-menu .add, .section-sale .container-card-menu .card-menu .add .add-card-content {
   display: flex;
   flex-direction: row;
 }
@@ -1473,7 +1493,7 @@ header .rectangle-three {
   border-radius: 9px;
   border: 1px solid #000;
   background: #FFBE30;
-  padding: 19px 15px;
+  padding: 19px 20px;
   gap: 25px;
   cursor: pointer;
 }
@@ -1560,7 +1580,7 @@ header .rectangle-three {
   border-radius: 9px;
   border: 1px solid #000;
   background: #FFBE30;
-  padding: 19px 15px;
+  padding: 19px 20px;
   gap: 25px;
   cursor: pointer;
 }
@@ -1647,7 +1667,7 @@ header .rectangle-three {
   border-radius: 9px;
   border: 1px solid #000;
   background: #FFBE30;
-  padding: 19px 15px;
+  padding: 19px 20px;
   gap: 25px;
 }
 .categories .categories-menu .card-kiwi .btn-grape .btn-grape-content .btn-grape-title {
@@ -1733,12 +1753,260 @@ header .rectangle-three {
   border-radius: 9px;
   border: 1px solid #000;
   background: #FFBE30;
-  padding: 19px 25px;
+  padding: 19px 20px;
   gap: 25px;
   cursor: pointer;
 }
 .categories .categories-menu .card-croissant .btn-grape .btn-grape-content .btn-grape-title {
   color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+.onoffline-container {
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
+.onoffline .onoffline-container .btn-bakery-layout, .onoffline .onoffline-container .btn-frutic-layout .btn-frutic, .onoffline .onoffline-container .btn-frutic-layout, .onoffline .onoffline-container, .section-products .products-row, .section-products .btn-pruducts .btn-pruducts-bottom, .section-products .two-card-section, .section-products .products-row-menu, .section-products .container-card-menu, .section-products .container-card-menu .card-menu .like-card-menu, .section-products .container-card-menu .card-menu .star, .section-products .container-card-menu .card-menu .price, .section-products .container-card-menu .card-menu .price .price-row, .section-products .container-card-menu .card-menu .price .price-outdated, .section-products .container-card-menu .card-menu .size-title-quantity, .section-products .container-card-menu .card-menu .btn-cotigori, .section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-products .container-card-menu .card-menu .add-card, .section-products .container-card-menu .card-menu .add, .section-products .container-card-menu .card-menu .add .add-card-content, .section-sale .products-row, .section-sale .btn-pruducts .btn-pruducts-bottom, .section-sale .container-card-menu, .section-sale .container-card-menu .card-menu .like-card-menu, .section-sale .container-card-menu .card-menu .star, .section-sale .container-card-menu .card-menu .price, .section-sale .container-card-menu .card-menu .price .price-row, .section-sale .container-card-menu .card-menu .price .price-outdated, .section-sale .container-card-menu .card-menu .size-title-quantity, .section-sale .container-card-menu .card-menu .btn-cotigori, .section-sale .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-sale .container-card-menu .card-menu .add-card, .section-sale .container-card-menu .card-menu .add-card-litre, .section-sale .container-card-menu .card-menu .add, .section-sale .container-card-menu .card-menu .add .add-card-content, .categories .categories-title, .categories .categories-menu, .categories .categories-menu .card-grape .grape-text, .categories .categories-menu .card-grape .grape-subtext, .categories .categories-menu .card-grape .star-categories, .categories .categories-menu .card-grape .price-tag, .categories .categories-menu .card-grape .btn-grape, .categories .categories-menu .card-grape .btn-grape .btn-grape-content, .categories .categories-menu .card-orange .grape-text, .categories .categories-menu .card-orange .grape-subtext, .categories .categories-menu .card-orange .star-categories, .categories .categories-menu .card-orange .price-tag, .categories .categories-menu .card-orange .btn-grape, .categories .categories-menu .card-orange .btn-grape .btn-grape-content, .categories .categories-menu .card-kiwi .grape-text, .categories .categories-menu .card-kiwi .grape-subtext, .categories .categories-menu .card-kiwi .star-categories, .categories .categories-menu .card-kiwi .price-tag, .categories .categories-menu .card-kiwi .btn-grape, .categories .categories-menu .card-kiwi .btn-grape .btn-grape-content, .categories .categories-menu .card-croissant .grape-text, .categories .categories-menu .card-croissant .grape-subtext, .categories .categories-menu .card-croissant .star-categories, .categories .categories-menu .card-croissant .price-tag, .categories .categories-menu .card-croissant .btn-grape, .categories .categories-menu .card-croissant .btn-grape .btn-grape-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-products .card-layout {
+  width: 345px;
+  height: 345px;
+  z-index: 1;
+}
+
+.section-products .card-layout .card-layout-p {
+  padding-left: 13px;
+  padding-right: 12px;
+}
+
+.section-products .card-layout .card-img {
+  position: absolute;
+  z-index: -1;
+}
+
+.section-products .card-layout .card-layout-title {
+  display: flex;
+  padding-top: 129px;
+  color: #FFBE30;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: -0.16px;
+}
+
+.section-products .card-layout .card-layout-text {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 106.281%;
+  letter-spacing: -0.12px;
+  padding-top: 5px;
+}
+
+.section-products .card-layout .btn-card-layout {
+  display: inline-block;
+  border-radius: 9px;
+  background: #FFBE30;
+  margin-top: 29px;
+}
+
+.section-products .card-layout .btn-card-layout .btn-cards {
+  display: flex;
+  align-items: center;
+  padding: 19px 32px;
+  cursor: pointer;
+}
+
+.section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori .btn-number-kg, .section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori .secanda-kg, .section-products .container-card-menu .card-menu .btn-cotigori .quantity .minus, .section-products .container-card-menu .card-menu .btn-cotigori .quantity .quantity-text, .section-products .container-card-menu .card-menu .btn-cotigori .quantity .plus, .categories .categories-menu .card-grape .btn-grape .btn-grape-content .btn-grape-title, .categories .categories-menu .card-orange .btn-grape .btn-grape-content .btn-grape-title, .categories .categories-menu .card-kiwi .btn-grape .btn-grape-content .btn-grape-title, .categories .categories-menu .card-croissant .btn-grape .btn-grape-content .btn-grape-title {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: 2.2px;
+  border-radius: 9px;
+}
+
+.section-products .card-layout .btn-card-layout .next-mal {
+  padding-left: 37px;
+}
+
+.section-products .container-card-menu .card-menu .fruits, .section-sale .container-card-menu .card-menu .fruits {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-products .container-card-menu .card-menu .card-menu-oushen, .section-sale .container-card-menu .card-menu .card-menu-oushen {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding-left: 27px;
+}
+
+.section-products .container-card-menu .card-menu .card-menu-oushen .menu-oushen-text, .section-products .container-card-menu .card-menu .card-menu-oushen .menu-oushen-subtext {
+  display: flex;
+  flex-direction: row;
+  color: #000;
+  font-weight: 700;
+}
+
+.section-products .container-card-menu .card-menu .star .star-no-active-text {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: 1.76px;
+}
+
+.section-products .container-card-menu .card-menu .price .price-row .price-title {
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133.781%;
+  letter-spacing: 3.96px;
+  font-size: 36px;
+}
+
+.section-products .container-card-menu .card-menu .price .price-row .price-subtitle {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 133.781%;
+  letter-spacing: 1.76px;
+}
+
+.section-products .container-card-menu .card-menu .size-title-quantity .size-title, .section-products .container-card-menu .card-menu .size-title-quantity .quantity-title {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 133.781%;
+  letter-spacing: 1.76px;
+}
+
+.onoffline {
+  font-family: "Kadwa", sans-serif;
+  background: #ACC43D;
+  position: relative;
+  width: 100%;
+  padding-bottom: 113px;
+  margin-bottom: 87px;
+  z-index: 2;
+}
+.onoffline .ab-frutic {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  bottom: 0;
+  z-index: -1;
+}
+.onoffline .crussasan-img {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  transform: transform scale(2, 1);
+}
+.onoffline .onoffline-container {
+  gap: 20px;
+}
+.onoffline .onoffline-container .onoffline-content {
+  display: inline-block;
+  padding-top: 173px;
+}
+.onoffline .onoffline-container .onoffline-content .frutic-title {
+  color: #ffffff;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: -0.48px;
+}
+.onoffline .onoffline-container .frutic-text {
+  display: inline-block;
+  width: 758px;
+  padding-top: 5px;
+}
+.onoffline .onoffline-container .frutic-text .frutic-texts {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 133.781%;
+  letter-spacing: -0.12px;
+}
+.onoffline .onoffline-container .btn-frutic-layout {
+  padding-top: 67px;
+}
+.onoffline .onoffline-container .btn-frutic-layout .btn-frutic {
+  border-radius: 9px;
+  background: #FFBE30;
+  padding: 19px 32px 19px 32px;
+}
+.onoffline .onoffline-container .btn-frutic-layout .btn-frutic .btn-frutics {
+  color: rgba(23, 51, 52, 0.52);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: 2.64px;
+}
+.onoffline .onoffline-container .btn-frutic-layout .btn-frutic .next-mal {
+  padding-left: 37px;
+}
+.onoffline .onoffline-container .bakery-content {
+  display: inline-block;
+  padding-top: 173px;
+  padding-left: 140px;
+}
+.onoffline .onoffline-container .bakery-content .bakery-title {
+  color: #ffffff;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: -0.48px;
+}
+.onoffline .onoffline-container .bakery-text {
+  display: inline-block;
+  width: 758px;
+  padding-top: 5px;
+}
+.onoffline .onoffline-container .bakery-text .bakery-texts {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 133.781%;
+  letter-spacing: -0.12px;
+}
+.onoffline .onoffline-container .btn-bakery-layout {
+  padding-top: 67px;
+}
+.onoffline .onoffline-container .btn-bakery-layout .btn-bakery {
+  border-radius: 9px;
+  background: #FFBE30;
+  padding: 19px 32px 19px 32px;
+}
+.onoffline .onoffline-container .btn-bakery-layout .btn-bakery .btn-bakeryy {
+  color: rgba(23, 51, 52, 0.52);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: 2.64px;
+}
+.onoffline .onoffline-container .btn-bakery-layout .btn-bakery .next-mal {
+  padding-left: 37px;
 }
 
 /*# sourceMappingURL=index.css.map */

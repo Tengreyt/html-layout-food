@@ -8,6 +8,11 @@
   margin: 0 auto;
 }
 
+.onoffline-container {
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
 .categories .categories-menu .card-croissant .btn-grape .btn-grape-content, .categories .categories-menu .card-croissant .btn-grape, .categories .categories-menu .card-croissant .price-tag, .categories .categories-menu .card-croissant .star-categories, .categories .categories-menu .card-croissant .grape-subtext, .categories .categories-menu .card-croissant .grape-text, .categories .categories-menu .card-kiwi .btn-grape .btn-grape-content, .categories .categories-menu .card-kiwi .btn-grape, .categories .categories-menu .card-kiwi .price-tag, .categories .categories-menu .card-kiwi .star-categories, .categories .categories-menu .card-kiwi .grape-subtext, .categories .categories-menu .card-kiwi .grape-text, .categories .categories-menu .card-orange .btn-grape .btn-grape-content, .categories .categories-menu .card-orange .btn-grape, .categories .categories-menu .card-orange .price-tag, .categories .categories-menu .card-orange .star-categories, .categories .categories-menu .card-orange .grape-subtext, .categories .categories-menu .card-orange .grape-text, .categories .categories-menu .card-grape .btn-grape .btn-grape-content, .categories .categories-menu .card-grape .btn-grape, .categories .categories-menu .card-grape .price-tag, .categories .categories-menu .card-grape .star-categories, .categories .categories-menu .card-grape .grape-subtext, .categories .categories-menu .card-grape .grape-text, .categories .categories-menu, .categories .categories-title {
   display: flex;
   flex-direction: row;
@@ -121,7 +126,7 @@
   border-radius: 9px;
   border: 1px solid #000;
   background: #FFBE30;
-  padding: 19px 15px;
+  padding: 19px 20px;
   gap: 25px;
   cursor: pointer;
 }
@@ -208,7 +213,7 @@
   border-radius: 9px;
   border: 1px solid #000;
   background: #FFBE30;
-  padding: 19px 15px;
+  padding: 19px 20px;
   gap: 25px;
   cursor: pointer;
 }
@@ -295,7 +300,7 @@
   border-radius: 9px;
   border: 1px solid #000;
   background: #FFBE30;
-  padding: 19px 15px;
+  padding: 19px 20px;
   gap: 25px;
 }
 .categories .categories-menu .card-kiwi .btn-grape .btn-grape-content .btn-grape-title {
@@ -381,7 +386,7 @@
   border-radius: 9px;
   border: 1px solid #000;
   background: #FFBE30;
-  padding: 19px 25px;
+  padding: 19px 20px;
   gap: 25px;
   cursor: pointer;
 }

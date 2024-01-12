@@ -1,0 +1,118 @@
+@import '../variables.scss';
+@import '../layout.scss';
+.onoffline{
+    font-family: 'Kadwa', sans-serif;
+    background: $danger;
+    position: relative;
+    width: 100%;
+    padding-bottom: 113px;
+    margin-bottom: 87px;
+    z-index: 2;
+    .ab-frutic{
+        position: absolute;
+        width: 600px;
+        height: 600px;
+        bottom: 0;
+        z-index: -1;
+    }
+    .crussasan-img{
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        transform: 
+        transform scale(2, 1);
+    }
+    .onoffline-container{
+        @extend %display-flex-row;
+        gap: 20px;
+        .onoffline-content{
+            display: inline-block;
+            padding-top: 173px;
+            .frutic-title{
+                color: $light-text;
+                font-size: 96px;
+                font-weight: 700;
+                line-height: 133.781%; 
+                letter-spacing: -0.48px;
+            }
+        }
+        .frutic-text{
+            display: inline-block;
+            width: 758px;
+            padding-top: 5px;
+            .frutic-texts{
+                color: $light-text;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 133.781%; 
+                letter-spacing: -0.12px;
+            }
+        }
+        .btn-frutic-layout{
+            @extend %display-flex-row;
+            padding-top: 67px;
+            .btn-frutic{
+                border-radius: 9px;
+                background: $primary;
+                @extend %display-flex-row;
+                padding: 19px 32px 19px 32px;
+                .btn-frutics{
+                    color: rgba(23, 51, 52, 0.52);
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.64px;
+                }
+                .next-mal{
+                    padding-left: 37px;
+                }
+            }
+        }
+        .bakery-content{
+            display: inline-block;
+            padding-top: 173px;
+            padding-left: 140px;
+            .bakery-title{
+                color: $light-text;
+                font-size: 96px;
+                font-weight: 700;
+                line-height: 133.781%; 
+                letter-spacing: -0.48px;
+            }
+        }
+        .bakery-text{
+            display: inline-block;
+            width: 758px;
+            padding-top: 5px;
+            .bakery-texts{
+                color: $light-text;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 133.781%; 
+                letter-spacing: -0.12px;
+            }
+        }
+        .btn-bakery-layout{
+            @extend %display-flex-row;
+            padding-top: 67px;
+            .btn-bakery{
+                border-radius: 9px;
+                background: $primary;
+                padding: 19px 32px 19px 32px;
+                .btn-bakeryy{
+                    color: rgba(23, 51, 52, 0.52);
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 133.781%; 
+                    letter-spacing: 2.64px;
+                }
+                .next-mal{
+                    padding-left: 37px;
+                }
+            }
+        }
+    }
+}

@@ -8,6 +8,11 @@
   margin: 0 auto;
 }
 
+.onoffline-container {
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
 .section-sale .container-card-menu .card-menu .add .add-card-content, .section-sale .container-card-menu .card-menu .add, .section-sale .container-card-menu .card-menu .add-card-litre, .section-sale .container-card-menu .card-menu .add-card, .section-sale .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-sale .container-card-menu .card-menu .btn-cotigori, .section-sale .container-card-menu .card-menu .size-title-quantity, .section-sale .container-card-menu .card-menu .price .price-outdated, .section-sale .container-card-menu .card-menu .price .price-row, .section-sale .container-card-menu .card-menu .price, .section-sale .container-card-menu .card-menu .star, .section-sale .container-card-menu .card-menu .like-card-menu, .section-sale .container-card-menu, .section-sale .btn-pruducts .btn-pruducts-bottom, .section-sale .products-row, .section-products .container-card-menu .card-menu .add .add-card-content, .section-products .container-card-menu .card-menu .add, .section-products .container-card-menu .card-menu .add-card, .section-products .container-card-menu .card-menu .btn-cotigori .btn-kg .content-cotigori, .section-products .container-card-menu .card-menu .btn-cotigori, .section-products .container-card-menu .card-menu .size-title-quantity, .section-products .container-card-menu .card-menu .price .price-outdated, .section-products .container-card-menu .card-menu .price .price-row, .section-products .container-card-menu .card-menu .price, .section-products .container-card-menu .card-menu .star, .section-products .container-card-menu .card-menu .like-card-menu, .section-products .container-card-menu, .section-products .products-row-menu, .section-products .two-card-section, .section-products .btn-pruducts .btn-pruducts-bottom, .section-products .products-row {
   display: flex;
   flex-direction: row;

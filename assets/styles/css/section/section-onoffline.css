@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+.onoffline-container {
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
+.onoffline .onoffline-container .btn-bakery-layout, .onoffline .onoffline-container .btn-frutic-layout .btn-frutic, .onoffline .onoffline-container .btn-frutic-layout, .onoffline .onoffline-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.onoffline {
+  font-family: "Kadwa", sans-serif;
+  background: #ACC43D;
+  position: relative;
+  width: 100%;
+  padding-bottom: 113px;
+  margin-bottom: 87px;
+  z-index: 2;
+}
+.onoffline .ab-frutic {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  bottom: 0;
+  z-index: -1;
+}
+.onoffline .crussasan-img {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  transform: transform scale(2, 1);
+}
+.onoffline .onoffline-container {
+  gap: 20px;
+}
+.onoffline .onoffline-container .onoffline-content {
+  display: inline-block;
+  padding-top: 173px;
+}
+.onoffline .onoffline-container .onoffline-content .frutic-title {
+  color: #ffffff;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: -0.48px;
+}
+.onoffline .onoffline-container .frutic-text {
+  display: inline-block;
+  width: 758px;
+  padding-top: 5px;
+}
+.onoffline .onoffline-container .frutic-text .frutic-texts {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 133.781%;
+  letter-spacing: -0.12px;
+}
+.onoffline .onoffline-container .btn-frutic-layout {
+  padding-top: 67px;
+}
+.onoffline .onoffline-container .btn-frutic-layout .btn-frutic {
+  border-radius: 9px;
+  background: #FFBE30;
+  padding: 19px 32px 19px 32px;
+}
+.onoffline .onoffline-container .btn-frutic-layout .btn-frutic .btn-frutics {
+  color: rgba(23, 51, 52, 0.52);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: 2.64px;
+}
+.onoffline .onoffline-container .btn-frutic-layout .btn-frutic .next-mal {
+  padding-left: 37px;
+}
+.onoffline .onoffline-container .bakery-content {
+  display: inline-block;
+  padding-top: 173px;
+  padding-left: 140px;
+}
+.onoffline .onoffline-container .bakery-content .bakery-title {
+  color: #ffffff;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: -0.48px;
+}
+.onoffline .onoffline-container .bakery-text {
+  display: inline-block;
+  width: 758px;
+  padding-top: 5px;
+}
+.onoffline .onoffline-container .bakery-text .bakery-texts {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 133.781%;
+  letter-spacing: -0.12px;
+}
+.onoffline .onoffline-container .btn-bakery-layout {
+  padding-top: 67px;
+}
+.onoffline .onoffline-container .btn-bakery-layout .btn-bakery {
+  border-radius: 9px;
+  background: #FFBE30;
+  padding: 19px 32px 19px 32px;
+}
+.onoffline .onoffline-container .btn-bakery-layout .btn-bakery .btn-bakeryy {
+  color: rgba(23, 51, 52, 0.52);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: 2.64px;
+}
+.onoffline .onoffline-container .btn-bakery-layout .btn-bakery .next-mal {
+  padding-left: 37px;
+}
+
+/*# sourceMappingURL=section-onoffline.css.map */
