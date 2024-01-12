@@ -23,7 +23,7 @@ feColorMatrix {
   margin: 0 auto;
 }
 
-.honunload .honunload-content .btn-read, .honunload .honunload-content {
+.honunload .honunload-content .storage-card-content .storage-card .create-card, .honunload .honunload-content .storage-card-content, .honunload .honunload-content .storage, .honunload .honunload-content .btn-read, .honunload .honunload-content {
   display: flex;
   flex-direction: row;
 }
@@ -31,7 +31,6 @@ feColorMatrix {
 .honunload {
   font-family: "Kadwa", sans-serif;
   background: #fff;
-  margin-bottom: 128px;
   padding-top: 87px;
   padding-bottom: 143px;
 }
@@ -71,6 +70,75 @@ feColorMatrix {
 }
 .honunload .honunload-content .btn-read .next-mal {
   padding-left: 37px;
+}
+.honunload .honunload-content .storage {
+  gap: 7px;
+}
+.honunload .honunload-content .storage-card-content {
+  gap: 6px;
+}
+.honunload .honunload-content .storage-card-content .storage-card {
+  width: 341px;
+  height: 511px;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+.honunload .honunload-content .storage-card-content .storage-card .star-twofour {
+  padding-left: 8px;
+  padding-top: 41px;
+}
+.honunload .honunload-content .storage-card-content .storage-card .star-twofour span {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: 1.76px;
+}
+.honunload .honunload-content .storage-card-content .storage-card .storage-card-title {
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: 2.64px;
+}
+.honunload .honunload-content .storage-card-content .storage-card .storage-card-subtitle {
+  padding-top: 29px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.honunload .honunload-content .storage-card-content .storage-card .storage-card-subtitle span {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 133.781%;
+  letter-spacing: -0.1px;
+}
+.honunload .honunload-content .storage-card-content .storage-card .create-card {
+  padding-top: 50px;
+  padding-bottom: 75px;
+  padding-left: 13px;
+  gap: 13px;
+}
+.honunload .honunload-content .storage-card-content .storage-card .create-card .create-card-text {
+  display: flex;
+  flex-direction: column;
+}
+.honunload .honunload-content .storage-card-content .storage-card .create-card .create-card-text .create-text-bridgett {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: 2.2px;
+}
+.honunload .honunload-content .storage-card-content .storage-card .create-card .create-card-text .create-text-client {
+  padding-top: 5px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 133.781%;
+  letter-spacing: 1.76px;
 }
 
 /*# sourceMappingURL=section-honunload.css.map */

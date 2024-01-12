@@ -3,11 +3,11 @@
 .honunload{
     font-family: 'Kadwa', sans-serif;
     background: $light;
-    margin-bottom: 128px;
     padding-top: 87px;
     padding-bottom: 143px;
     .honunload-content{
        @extend %display-flex-row;
+        //left content
        .timonials{
             .timonials-title{
             display: flex;
@@ -46,6 +46,82 @@
             }
             .next-mal{
                 padding-left: 37px;
+            }
+        }
+        //left content
+
+        // right content
+        .storage{
+            @extend %display-flex-row;
+            gap: 7px
+            
+        }
+        .storage-card-content{
+            @extend %display-flex-row;
+            gap: 6px;
+            .storage-card{
+                width: 341px;
+                height: 511px;
+                border-radius: 10px;
+                border: 2px solid $dark-text;
+                .star-twofour{
+                    padding-left: 8px;
+                    padding-top: 41px;
+                    span{
+                        color: $dark-text;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 133.781%; 
+                        letter-spacing: 1.76px;
+                    }
+                }
+                .storage-card-title{
+                    padding-left: 10px;
+                    padding-top: 10px;
+                    color: $dark-text;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 133.781%;
+                    letter-spacing: 2.64px;
+                }
+                .storage-card-subtitle{
+                    padding-top: 29px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    span{
+                        color: $dark-text;
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 133.781%;
+                        letter-spacing: -0.1px;
+                    }
+                }
+                .create-card{
+                    @extend %display-flex-row;
+                    padding-top: 50px;
+                    padding-bottom: 75px;
+                    padding-left: 13px;
+                    gap: 13px;
+                    .create-card-text{
+                        display: flex;
+                        flex-direction: column;
+                        .create-text-bridgett{
+                            color: $dark-text;
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 133.781%; 
+                            letter-spacing: 2.2px;
+                        }
+                        .create-text-client{
+                            padding-top: 5px;
+                            color: $dark-text;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 133.781%; 
+                            letter-spacing: 1.76px;
+                        }
+                    }
+                }
             }
         }
     }
