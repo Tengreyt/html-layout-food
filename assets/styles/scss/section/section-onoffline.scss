@@ -3,31 +3,37 @@
 .onoffline{
     font-family: 'Kadwa', sans-serif;
     background: $danger;
-    position: relative;
     width: 100%;
     padding-bottom: 113px;
     margin-bottom: 87px;
+    position: relative;
     z-index: 2;
-    .ab-frutic{
-        position: absolute;
-        width: 600px;
-        height: 600px;
-        bottom: 0;
-        z-index: -1;
+    .ab-frutic-relativ{
+        position: relative;
+        .ab-frutic{
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            bottom: -113px;
+            left: -130px;
+            z-index: -1;
+        }
     }
-    .crussasan-img{
-        width: 600px;
-        height: 600px;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        z-index: -1;
-        transform: 
-        transform scale(2, 1);
+    .crussasan-relativ{
+        position: relative;
+        .crussasan-img{
+            width: 600px;
+            height: 600px;
+            position: absolute;
+            left: 1150px;
+            bottom: 0;
+            z-index: -1;
+        }
     }
     .onoffline-container{
         @extend %display-flex-row;
         gap: 20px;
+        z-index: 1;
         .onoffline-content{
             display: inline-block;
             padding-top: 173px;

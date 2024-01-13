@@ -80,7 +80,7 @@ feColorMatrix {
 .img-bg .image-foode-bg {
   position: absolute;
   top: 274px;
-  right: 0;
+  right: -240px;
 }
 
 .discount-dg {
@@ -89,7 +89,7 @@ feColorMatrix {
 .discount-dg .discount {
   position: absolute;
   top: 82px;
-  left: 829px;
+  left: 620px;
 }
 
 /*# sourceMappingURL=section-intro.css.map */

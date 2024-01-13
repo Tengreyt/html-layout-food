@@ -299,7 +299,7 @@ feColorMatrix {
 .img-bg .image-foode-bg {
   position: absolute;
   top: 274px;
-  right: 0;
+  right: -240px;
 }
 
 .discount-dg {
@@ -308,7 +308,7 @@ feColorMatrix {
 .discount-dg .discount {
   position: absolute;
   top: 82px;
-  left: 829px;
+  left: 620px;
 }
 
 feColorMatrix {
@@ -520,7 +520,7 @@ feColorMatrix {
 }
 .section-products .container-card-menu {
   flex-wrap: wrap;
-  gap: 36px;
+  gap: 30px;
   margin-top: 65px;
   margin-bottom: 24px;
 }
@@ -888,7 +888,7 @@ feColorMatrix {
 }
 .section-products .container-card-menu {
   flex-wrap: wrap;
-  gap: 36px;
+  gap: 30px;
   margin-top: 65px;
   margin-bottom: 24px;
 }
@@ -1082,7 +1082,7 @@ feColorMatrix {
 }
 .section-sale .container-card-menu {
   flex-wrap: wrap;
-  gap: 36px;
+  gap: 30px;
   margin-top: 82px;
 }
 .section-sale .container-card-menu .card-menu {
@@ -1980,30 +1980,37 @@ feColorMatrix {
 .onoffline {
   font-family: "Kadwa", sans-serif;
   background: #ACC43D;
-  position: relative;
   width: 100%;
   padding-bottom: 113px;
   margin-bottom: 87px;
+  position: relative;
   z-index: 2;
 }
-.onoffline .ab-frutic {
+.onoffline .ab-frutic-relativ {
+  position: relative;
+}
+.onoffline .ab-frutic-relativ .ab-frutic {
   position: absolute;
   width: 600px;
   height: 600px;
-  bottom: 0;
+  bottom: -113px;
+  left: -130px;
   z-index: -1;
 }
-.onoffline .crussasan-img {
+.onoffline .crussasan-relativ {
+  position: relative;
+}
+.onoffline .crussasan-relativ .crussasan-img {
   width: 600px;
   height: 600px;
   position: absolute;
-  right: 0;
+  left: 1150px;
   bottom: 0;
   z-index: -1;
-  transform: transform scale(2, 1);
 }
 .onoffline .onoffline-container {
   gap: 20px;
+  z-index: 1;
 }
 .onoffline .onoffline-container .onoffline-content {
   display: inline-block;

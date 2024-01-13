@@ -212,7 +212,7 @@ feColorMatrix {
 }
 .section-products .container-card-menu {
   flex-wrap: wrap;
-  gap: 36px;
+  gap: 30px;
   margin-top: 65px;
   margin-bottom: 24px;
 }
@@ -406,7 +406,7 @@ feColorMatrix {
 }
 .section-sale .container-card-menu {
   flex-wrap: wrap;
-  gap: 36px;
+  gap: 30px;
   margin-top: 82px;
 }
 .section-sale .container-card-menu .card-menu {
