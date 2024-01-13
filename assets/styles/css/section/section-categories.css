@@ -28,15 +28,6 @@ feColorMatrix {
   flex-direction: row;
 }
 
-.categories .categories-menu .card-croissant .btn-grape .btn-grape-content .btn-grape-title, .categories .categories-menu .card-kiwi .btn-grape .btn-grape-content .btn-grape-title, .categories .categories-menu .card-orange .btn-grape .btn-grape-content .btn-grape-title, .categories .categories-menu .card-grape .btn-grape .btn-grape-content .btn-grape-title {
-  color: #000;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 133.781%;
-  letter-spacing: 2.2px;
-  border-radius: 9px;
-}
-
 .categories {
   font-family: "Kadwa", sans-serif;
   background: #fff;
@@ -141,7 +132,11 @@ feColorMatrix {
   cursor: pointer;
 }
 .categories .categories-menu .card-grape .btn-grape .btn-grape-content .btn-grape-title {
-  color: #ffffff;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: 2.2px;
 }
 .categories .categories-menu .card-orange {
   position: relative;
@@ -228,7 +223,11 @@ feColorMatrix {
   cursor: pointer;
 }
 .categories .categories-menu .card-orange .btn-grape .btn-grape-content .btn-grape-title {
-  color: #ffffff;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: 2.2px;
 }
 .categories .categories-menu .card-kiwi {
   position: relative;
@@ -314,7 +313,11 @@ feColorMatrix {
   gap: 25px;
 }
 .categories .categories-menu .card-kiwi .btn-grape .btn-grape-content .btn-grape-title {
-  color: #ffffff;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: 2.2px;
 }
 .categories .categories-menu .card-croissant {
   position: relative;
@@ -401,7 +404,11 @@ feColorMatrix {
   cursor: pointer;
 }
 .categories .categories-menu .card-croissant .btn-grape .btn-grape-content .btn-grape-title {
-  color: #ffffff;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 133.781%;
+  letter-spacing: 2.2px;
 }
 
 /*# sourceMappingURL=section-categories.css.map */

@@ -1,0 +1,201 @@
+@import '../variables.scss';
+@import '../layout.scss';
+@import '../section/section-blog.scss';
+
+.footer{
+    font-family: 'Kadwa', sans-serif;
+    background: $secondary;
+    padding-bottom: 58px;
+    .footer-cards{
+        @extend %display-flex-row;
+        gap: 10px;
+        .footer-content{
+            width: 460px;
+            border-radius: 10px;
+            background: $light;
+            .footer-content-title{
+                padding-top: 33px;
+                padding-left: 22px;
+                color: $secondary-text;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 133.781%; 
+                letter-spacing: -0.2px;
+            }   
+            .footer-content-subtitle{
+                padding-top: 9px;
+                padding-left: 22px;
+                padding-right: 65px;
+                color: $dark-text;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 133.781%; 
+                letter-spacing: -0.12px;
+            }
+            .footer-btn-content{
+                @extend %display-flex-row;
+                padding-left: 22px;
+                padding-right: 141px;
+                padding-bottom: 27px;
+                padding-top: 40px;
+                .footer-btn-title{
+                    @extend %display-flex-row;
+                    align-items: center;
+                    gap: 36px;
+                    padding: 16px 40px 12px 40px;
+                    border-radius: 9px;
+                    background: $primary;
+                    .footer-btn-text{
+                        color: $dark-text;
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 133.781%; 
+                        letter-spacing: 2.64px;
+                    }
+                }
+            }
+        }
+    }
+    .footer-contacts{
+        @extend %display-flex-row;
+        gap: 40px;
+        padding-top: 88px;
+        .foodmart{
+            width: 420px;
+            display: flex;
+            flex-direction: column;
+            .foodmart-title{
+                color: $primary;
+                font-size: 32px;
+                font-weight: 700;
+            }
+            .foodmart-subtitle{
+                padding-top: 10px;
+                color: $light-text;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 133.781%; 
+                letter-spacing: -0.1px;
+            }
+        }
+        .footer-nav{
+            @extend %display-flex-row;
+            gap: 79px;
+            .footer-navigation{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                .footer-navigation-t{
+                    cursor: pointer;
+                    color: $light-text;
+                    font-size: 24px;
+                    font-weight: 400;
+                }
+                .navigation-text{
+                    color: $light-text;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+            }
+            .footer-about{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                .footer-navigation-t{
+                    cursor: pointer;
+                    color: $light-text;
+                    font-size: 24px;
+                    font-weight: 400;
+                }
+                .navigation-text{
+                    color: $light-text;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+            }
+        }
+        .footer-subscribe{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .footer-subscribe-title{
+                color: $light-text;
+                font-size: 23px;
+                font-weight: 700;
+            }
+            .footer-subscribe-subtitle{
+                width: 420px;
+                color: $light-text;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 133.781%; 
+                letter-spacing: -0.1px;
+            }
+        }
+        .form__group{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            cursor: pointer;
+            width: 448px;
+            padding-top: 41px;
+            .field{
+                border: 1px solid #FFF;
+                padding-left: 23px;
+                padding-right: 80px;
+                color: $light-text;
+                font-size: 24px;
+                font-weight: 400;
+                opacity: .65;
+            }
+            .field-btn{
+                display: flex;
+                background: $primary;
+                align-items: center;
+                cursor: pointer;
+                .field-right-arrow{
+                    padding: 6px 16px 5px 17px;
+                }
+            }
+        }
+    }
+    .footer-reserved{
+        @extend %display-flex-row;
+        justify-content: space-between;
+        padding-top: 100px;
+        .footer-reserved-left{
+            @extend %display-flex-row;
+            align-items: center;
+            .footer-reserved-left-text{
+                color: $light-text;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 133.781%; 
+                letter-spacing: -0.12px;
+            }
+        }
+        .footer-reserved-right{
+            @extend %display-flex-row;
+            align-items: center;
+            .footer-reserved-made{
+                color: $light-text;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 133.781%; 
+                letter-spacing: -0.12px;
+            }
+            .footer-heart-active{
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            .footer-reserved-sebby{
+                padding-left: 5px;
+                color: $primary;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 133.781%;
+                letter-spacing: -0.12px;
+            }
+        }
+    }
+}
